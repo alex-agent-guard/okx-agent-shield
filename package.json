@@ -1,0 +1,23 @@
+{
+  "name": "okx-agent-shield",
+  "version": "0.1.0",
+  "description": "OKX Agent Trade Kit 交易安全中间件",
+  "main": "dist/index.js",
+  "bin": {
+    "okx-agent-shield": "./dist/index.js"
+  },
+  "scripts": {
+  "build": "tsc",
+  "start": "node dist/index.js",
+  "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^26.1.0",
+    "chalk": "^4.1.2",
+    "commander": "^15.0.0",
+    "typescript": "^6.0.3"
+  }
+}
